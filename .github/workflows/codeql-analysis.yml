@@ -7,7 +7,7 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ master ]
     paths-ignore:
-      - 'dontcare/'
+      - 'dontcare/**'
   schedule:
     - cron: '17 23 * * 0'
 
