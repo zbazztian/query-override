@@ -3,7 +3,10 @@
 ####################################
 
 disable-default-queries: true  # disable all default queries, because we are going to override one of them
-queries:
+#queries:
   # we use our own query pack, based on the original one,
   # but with a query replaced by a customized one
-  - uses: ./.github/custom-java-query-pack/suite.qls
+#  - uses: ./.github/custom-java-query-pack/suite.qls
+packs:
+  java:
+    - zbazztian/sebastians-query-pack
