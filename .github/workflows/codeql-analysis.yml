@@ -44,11 +44,3 @@ jobs:
       uses: github/codeql-action/analyze@v1
       with:
         output: sarif-results
-        upload: False
-
-    - name: Upload SARIF
-      uses: actions/upload-artifact@v2
-      with:
-        name: SARIF Files
-        path: |
-          sarif-results
