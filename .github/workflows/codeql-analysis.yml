@@ -4,15 +4,12 @@ on:
   push:
     branches: [ master ]
   pull_request:
-    # The branches below must be a subset of the branches above
     branches: [ master ]
     paths-ignore:
       - 'dontcare/**'
-  schedule:
-    - cron: '17 23 * * 0'
 
-env:
-  GITHUB_TOKEN: '${{ secrets.PACKAGETOKEN }}'
+#env:
+#  GITHUB_TOKEN: '${{ secrets.PACKAGETOKEN }}'
 
 jobs:
   analyze:
