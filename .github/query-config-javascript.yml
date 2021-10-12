@@ -6,3 +6,4 @@ paths-ignore:
   - '**/*.ts'                  # ...but ignore all Typescript files
   - '**/*mongo*.js'            # ... and a few selected Javascript files
   - '**/tst*.js'
+  - '**/redis.js'
