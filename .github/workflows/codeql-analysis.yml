@@ -8,9 +8,6 @@ on:
     paths-ignore:
       - 'dontcare/**'
 
-#env:
-#  GITHUB_TOKEN: '${{ secrets.PACKAGETOKEN }}'
-
 jobs:
   analyze:
     name: Analyze
@@ -25,7 +22,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v1
       with:
