@@ -4,4 +4,4 @@ paths:
   - 'js/'                      # extract all Javascript code under the 'js/' directory...
 paths-ignore:
   - '**/*.ts'                  # ...but ignore all Typescript files
-  - '**/*.js'
+  - '**/mongo*.js'
