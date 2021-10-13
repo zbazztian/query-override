@@ -24,8 +24,7 @@ jobs:
       uses: github/codeql-action/init@v1
       with:
         languages: ${{ matrix.language }}
-        queries: default.qls
-        packs: zbazztian/sebastians-query-pack
+        config-file: .github/codeql-config.yml
 
     - name: custom build command
       run: ./build.sh
