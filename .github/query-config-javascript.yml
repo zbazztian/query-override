@@ -1,9 +1,0 @@
-# CodeQL configuration file (Javascript)
-
-paths:
-  - 'js/'                      # extract all Javascript code under the 'js/' directory...
-paths-ignore:
-  - '**/*.ts'                  # ...but ignore all Typescript files
-  - '**/*mongo*.js'            # ... and a few selected Javascript files
-  - '**/tst*.js'
-  - '**/redis.js'
