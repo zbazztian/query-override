@@ -1,6 +1,3 @@
 # CodeQL configuration file
 
-disable-default-queries: true
-packs:
-  java:
-    - zbazztian/sebastians-query-pack
+disable-default-queries: false
