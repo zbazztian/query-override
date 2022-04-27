@@ -2,8 +2,5 @@
 # https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning?learn=code_security_actions&learnProduct=code-security#using-a-custom-configuration-file
 
 disable-default-queries: true
-packs:
-  java:
-    - zbazztian/sebastians-query-pack
-#queries:
-#  - uses: ./no-xss.qls
+queries:
+  - uses: ./no-xss.qls
