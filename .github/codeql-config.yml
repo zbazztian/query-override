@@ -1,5 +1,5 @@
 # CodeQL configuration file
-# https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning?learn=code_security_actions&learnProduct=code-security#specifying-additional-queries
+# https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning?learn=code_security_actions&learnProduct=code-security#using-a-custom-configuration-file
 
 disable-default-queries: true
 packs:
