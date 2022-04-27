@@ -6,4 +6,4 @@ disable-default-queries: true
 #  java:
 #    - zbazztian/sebastians-query-pack
 queries:
-  -uses: ./no-xss.qls
+  - uses: ./no-xss.qls
