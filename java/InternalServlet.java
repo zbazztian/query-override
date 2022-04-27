@@ -5,7 +5,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 
 
-public class ExposedServlet extends HttpServlet {
+public class InternalServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 	throws ServletException, IOException {
 		// BAD: a request parameter is written directly to the Servlet response stream
