@@ -4,5 +4,4 @@
 disable-default-queries: true
 packs:
   java:
-    - zbazztian/extended
-    #- zbazztian/sebastians-query-pack
+    - zbazztian/sebastians-query-pack
