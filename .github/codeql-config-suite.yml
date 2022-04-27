@@ -3,4 +3,4 @@
 
 disable-default-queries: true
 queries:
-  - uses: ./no-xss.qls
+  - uses: ./.github/no-xss.qls
